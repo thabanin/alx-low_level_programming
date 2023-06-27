@@ -6,7 +6,7 @@
  * Return: a and n inputs
  */
 
-void print_array(int *a, int n)
+void puts_half(char *str)
 {
 	int a, n, longi;
 
@@ -22,5 +22,5 @@ void print_array(int *a, int n)
 
 	for (a = n; str[a] != '\0'; a++)
 		_putchar(str[a]);
-	_putchar('\n')		
+	_putchar('\n');		
 }
